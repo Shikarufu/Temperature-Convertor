@@ -120,7 +120,7 @@ p{
     .container{
         width: 90%;
         max-height: 400px;
-        min-height: 300px;
+        min-height: 350px;
     }
     
     button:active{
@@ -170,3 +170,4 @@ p{
         }
     }
 }
+
