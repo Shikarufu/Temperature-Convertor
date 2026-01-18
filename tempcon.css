@@ -119,8 +119,8 @@ p{
 @media (max-width: 480px) {
     .container{
         width: 90%;
-        max-height: 400px;
-        min-height: 350px;
+        max-height: 450px;
+        min-height: 400px;
     }
     
     button:active{
@@ -170,4 +170,3 @@ p{
         }
     }
 }
-
