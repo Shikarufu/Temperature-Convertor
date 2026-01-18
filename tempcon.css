@@ -118,24 +118,31 @@ p{
 
 @media (max-width: 480px) {
     .container{
-        width: 60%;
-        height: 400px;
+        width: 90%;
+        max-height: 400px;
+        min-height: 300px;
+    }
+    
+    button:active{
+        opacity: 0.8;
     }
     input{
-        padding: 5px;
+        /* padding: 5px; */
+        width: 100%;
         width: 250px;
+        margin: 5px auto;
+     
     }
     button{
         padding: 6px;
         margin-top: 10px;
     }
-    select{
-        padding: 5px;
-    }
+   
     .result{
         padding: 6px;
         animation: scale 0.3s ease-in-out;
         width: 80%;
+        margin-top: 20px;
     }
     #anws.animate{
         animation: scale,fadeColor 0.3s ease-in;
